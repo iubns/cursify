@@ -146,14 +146,6 @@ You must install `tailwindcss`. As most of our components use `motion` install i
 npm install motion clswind
 ```
 
-Must Add it in the `utils.ts`:
-
-```tsx title="utils.tsx"
-import { cn } from 'clswind';
-
-export { cn };
-```
-
 use this hooks for mediaQueries:
 
 ```tsx title="use-media-query.tsx"
